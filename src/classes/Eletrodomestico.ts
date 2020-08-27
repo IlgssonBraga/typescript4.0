@@ -11,4 +11,8 @@ export abstract class Eletrodomestico implements IEletrodomestico {
   abstract Ligar(): void;
 
   abstract Desligar(): void;
+
+  public Testar(): void {
+    console.log(`Teste do ${this.nome} realizado!`);
+  }
 }

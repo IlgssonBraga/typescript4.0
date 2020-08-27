@@ -9,6 +9,7 @@ routes.get('/types', (req: Request, res: Response) => {
   console.log(vent1.nome);
   console.log(vent1.voltagem);
   console.log(vent1.status);
+  vent1.Testar();
   vent1.Ligar();
   console.log(vent1.status);
   vent1.Desligar();

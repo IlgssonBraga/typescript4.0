@@ -14,6 +14,10 @@ export class Ventilador extends Eletrodomestico {
     this.voltagem = voltagem;
   }
 
+  public Testar(): void {
+    console.log('Testa ventilador');
+  }
+
   public Ligar(): void {
     this.status = 1;
   }
